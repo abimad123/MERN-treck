@@ -1,0 +1,21 @@
+.parent{
+height: 200px;
+width: 300px;
+background-color: bisque;
+position: relative;
+}
+
+.child{
+position: relative;
+width: 100px;
+height: 100px;
+background-color: red;
+}
+
+.childs{
+    background-color: rgb(107, 107, 120);
+   position: sticky;
+    width: 100px;
+    height: 100px;
+
+}
