@@ -26,21 +26,26 @@
 // q=2;  // not alloward - reintializtion again
 
 //primitive
-let str="String";
-let number=1;
-``
+// let str="String";
+// let number=1;
+// ``
 
-let bool= true;
-let und = undefined;
-let nul = null;
+// let bool= true;
+// let und = undefined;
+// let nul = null;
 
-// non primitive
-let obj={name:"abijith",
-    email:["a@gmail.com","b@b.com"],
-    address: {city:"jalanadhr"},
-};
-let arr= [1,2,"hello",true,function(){},undefined,null];
+// // non primitive
+// let obj={name:"abijith",
+//     email:["a@gmail.com","b@b.com"],
+//     address: {city:"jalanadhr"},
+// };
+// let arr= [1,2,"hello",true,function(){},undefined,null];
 
-function func(){
+// function func(){
 
-}
+// }
+
+let greet = 'It\'s'   // output will be  It's
+let gee= "hello 's " // output will be  hello 's 
+let gre= "hello";
+console.log(gre.slice(0,2));  // output he
