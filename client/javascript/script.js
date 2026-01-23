@@ -29,22 +29,10 @@
 // let str="String";
 // let number=1;
 // ``
-
 // let bool= true;
 // let und = undefined;
-// let nul = null;
+let nul = null;    //typeof the null is object 
 
-// // non primitive
-// let obj= {
-//     name:"abijith",
-//     email:["a@gmail.com","b@b.com"],
-//     address: {city:"jalanadhr"},
-// };
-// let arr= [1,2,"hello",true,function(){},undefined,null];
-
-// function func(){
-
-// }
 
 // let greet = 'It\'s'   // output will be  It's
 // let gee= "hello 's " // output will be  hello 's 
@@ -73,3 +61,25 @@
 // console.log(multi);
 // console.log(typeof multi)  // of the value in the keyword like number , strings
 
+
+// // non primitive
+let obj= {
+    name:"abijith",
+    email:["a@gmail.com","b@b.com"],
+    address: {city:"jalanadhr"},
+};
+// console.log(obj);
+// console.log(obj.name);         //read name
+// obj.name = "Aditya";  
+// console.log(obj.name);         //update
+// console.log(obj);
+// obj.moblie=988745561223;       //create
+// console.log(obj);
+// delete obj.moblie;             //delete
+// console.log(obj);
+
+// let arr= [1,2,"hello",true,function(){},undefined,null];
+
+// function func(){
+
+// }
