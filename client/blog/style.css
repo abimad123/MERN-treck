@@ -62,6 +62,19 @@
     padding: 20px;
 }
 
+.sidebar  a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+    display: flex;
+    gap: 100px;
+}
+
+.sidebar  a:hover {
+    color: #ff9800;
+}
+
 .main {
     grid-area: main;
     padding: 20px;
