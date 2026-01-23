@@ -35,7 +35,8 @@
 // let nul = null;
 
 // // non primitive
-// let obj={name:"abijith",
+// let obj= {
+//     name:"abijith",
 //     email:["a@gmail.com","b@b.com"],
 //     address: {city:"jalanadhr"},
 // };
@@ -45,7 +46,30 @@
 
 // }
 
-let greet = 'It\'s'   // output will be  It's
-let gee= "hello 's " // output will be  hello 's 
-let gre= "hello";
-console.log(gre.slice(0,2));  // output he
+// let greet = 'It\'s'   // output will be  It's
+// let gee= "hello 's " // output will be  hello 's 
+// let gre= "hello";
+// console.log(gre.slice(0,2));  // output he
+
+// let gret ="Hello";
+// let name = "abijith";
+// const full = gret + name;
+// console.log(full);
+
+
+//     Common Escape Sequences
+//      \n: Inserts a newline (equivalent to pressing Enter). 
+//      \t: Inserts a tab space. 
+//      \\: Represents a literal backslash. 
+//      \": Inserts a literal double quote. 
+//      ': Inserts a literal single quote. 
+//      \0: Represents the null character (U+0000), if not followed by a digit 0–7.
+
+// const person= "Abi";
+// const greeting = `Hello  ${person}`
+// const multi = `mujdfdfdfd 
+// dfdfdfdfdf
+// dfdfdfdf`
+// console.log(multi);
+// console.log(typeof multi)  // of the value in the keyword like number , strings
+
