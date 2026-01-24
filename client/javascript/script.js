@@ -31,7 +31,7 @@
 // ``
 // let bool= true;
 // let und = undefined;
-let nul = null;    //typeof the null is object 
+// let nul = null;    //typeof the null is object 
 
 
 // let greet = 'It\'s'   // output will be  It's
@@ -63,11 +63,11 @@ let nul = null;    //typeof the null is object
 
 
 // // non primitive
-let obj= {
-    name:"abijith",
-    email:["a@gmail.com","b@b.com"],
-    address: {city:"jalanadhr"},
-};
+// let obj= {
+//     name:"abijith",
+//     email:["a@gmail.com","b@b.com"],
+//     address: {city:"jalanadhr"},
+// };
 // console.log(obj);
 // console.log(obj.name);         //read name
 // obj.name = "Aditya";  
@@ -83,3 +83,38 @@ let obj= {
 // function func(){
 
 // }
+
+// arr[10] =3;
+// console.log(arr);
+// console.log(arr[8]);
+// console.log(arr[100]);
+
+// arr.push(10);     //add in last
+// arr.pop();        //remove from last
+// arr.unshift();    //add at fist
+// arr.shift();      //remove from last
+// console.log(arr)
+
+// arr.fill(9,0,2);
+// arr.reverse();
+// console.log(arr);
+
+
+test();
+test("Abi",21);
+function test(name, age){
+    if(!name || !age){
+        return;
+    }else{
+        console.log(`hello ${name}, Age:${age}`);
+    }
+ }
+test();
+
+
+// // arrow fun
+// () => { }
+
+// const func1 = ()=> {}
+// func1();   //only can after createion of the function
+
