@@ -132,6 +132,35 @@
 //     console.log(students[i].name);
 // }
 
-for(let key in students){
-    console.log(student[key])
-}
+// for(let key in students){
+//     console.log(student[key])
+// }
+
+
+// const parent = (callBackFn) =>{
+//     callBackFn();
+// }
+// const inner =()=>{
+//     console.log("hello from inner");
+// }
+// parent(inner);
+
+
+const ages=[10,20,30,40];
+// ages.forEach( (value, index) =>{
+//     console.log(value);
+// })
+
+// ages.forEach( (value, index) =>{
+//     ages[index] = value *2;
+// })
+// console.log(ages);
+
+const double = ages.map((value,index) =>{
+        return value *2;
+})
+console.log(ages);
+
+
+
+
