@@ -100,21 +100,22 @@
 // console.log(arr);
 
 
-test();
-test("Abi",21);
-function test(name, age){
-    if(!name || !age){
-        return;
-    }else{
-        console.log(`hello ${name}, Age:${age}`);
-    }
- }
-test();
-
+// test();
+// test("Abi",21);
+// function test(name, age){
+//     if(!name || !age){
+//         return;
+//     }else{
+//         console.log(`hello ${name}, Age:${age}`);
+//     }
+//  }
+// test();
 
 // // arrow fun
 // () => { }
 
 // const func1 = ()=> {}
 // func1();   //only can after createion of the function
+
+
 
