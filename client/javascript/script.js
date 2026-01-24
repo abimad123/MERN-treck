@@ -118,4 +118,20 @@
 // func1();   //only can after createion of the function
 
 
+// for(let i=0;i<5;i++){
+//    console.log(i); 
+// }
 
+// let q=0;
+// while(q < 10){
+//     console.log(q);
+//     q++;
+// }
+
+// for(let i=0;i<students.length;i++){
+//     console.log(students[i].name);
+// }
+
+for(let key in students){
+    console.log(student[key])
+}
