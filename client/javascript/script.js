@@ -146,7 +146,7 @@
 // parent(inner);
 
 
-const ages=[10,20,30,40];
+// const ages=[10,20,30,40];
 // ages.forEach( (value, index) =>{
 //     console.log(value);
 // })
@@ -156,11 +156,35 @@ const ages=[10,20,30,40];
 // })
 // console.log(ages);
 
-const double = ages.map((value,index) =>{
-        return value *2;
-})
-console.log(ages);
+// const doubled = ages.map((value,index) =>{
+//         return value *2;
+// })
+// console.log("OG",ages);
+// console.log("UG",doubled);
+
+// const filtered = ages.filter((value,index) =>{
+//         return value > 15;
+// })
+// console.log("UG",filtered);
+
+// const sum = ages.reduce((perv,curr) =>{
+//         return perv + curr;
+// },0)
+// console.log("UG",sum);
+
+// // find , some, every
+
+// const ect=ages.find()
 
 
-
+// function count(){
+//     let c = 0;
+//     return function inner(){
+//         c++;
+//         console.log(c);
+//     }
+// }
+// const counter = count();
+// counter();  //output  1
+// counter();  //output  2
 
