@@ -187,3 +187,38 @@
 // const counter = count();
 // counter();  //output  1
 // counter();  //output  2
+
+// async js
+
+
+// const timeoutId = setTimeout(()=>{
+//     console.log(1);
+// },2*1000);
+// console.log(2);
+
+// clearTimeout(timeoutId);
+
+// setTimeout(() => clearInterval(intervalId),8 *1000);
+
+//promise 
+
+// const url ="https://jsonplaceholder.typicode.com/todos/1";
+// fetch(url)
+//   .then(res => res.json())
+//   .then(data => console.log(data))
+//   .catch(err => console.error(err));
+
+
+// const url ="https://jsonplaceholder.typicode.com/todos";
+// fetch(url).then((res)=>{
+//     return res.json();
+// }).then((data)=>{
+//     console.log(data);
+// }).catch((err)=>{
+//     console.error(err);
+// });
+
+
+async function getTodos(){
+
+}

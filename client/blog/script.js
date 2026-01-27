@@ -5,7 +5,7 @@ const overlay = document.querySelector(".overlay")
 
 
 function openMenu(){
-
+   
     mobMenu.style.left=0;
    overlay.style.opacity=1;
    
@@ -18,3 +18,4 @@ function closeMenu(){
 
 menuIcon.addEventListener("click",openMenu);
 closeIcon.addEventListener("click",closeMenu);
+overlay.addEventListener("click",closeMenu);

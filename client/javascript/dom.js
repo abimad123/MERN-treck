@@ -7,17 +7,17 @@
 // document.querySelectorAll("");         //element[]
 
 
-const el = document.getElementsByClassName("container");
-console.log(el);
-console.log(el[0].innerText);
-el[0].append("hello")
+// const el = document.getElementsByClassName("container");
+// console.log(el);
+// console.log(el[0].innerText);
+// el[0].append("hello")
 
-el[0].innerHTML = "<button>Click ME</button>";
+// el[0].innerHTML = "<button>Click ME</button>";
 
-const btn = document.createElement("button");
-btn.innerText = "New Button";
-btn.classList.add("btn");
-document.body.append(btn)
+// const btn = document.createElement("button");
+// btn.innerText = "New Button";
+// btn.classList.add("btn");
+// document.body.append(btn)
 
 
 
