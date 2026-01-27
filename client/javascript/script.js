@@ -219,6 +219,28 @@
 // });
 
 
-async function getTodos(){
+// async function getTodos(){
+// try{
+//     const res = await fetch("https://jsonplaceholder.typicode.com/todos");
+//     const data = await res.json();
+//     console.log(data);
+// }catch(err){
+//     console.error(err);
+// }
+// }
+// getTodos();
+// const outPromise = new Promise((resolve, reject) => {
+// });
 
-}
+
+const users = [
+    {
+    name:"abijith",
+    age:21,
+},
+{name:"abhi",
+email:"a@A.com",
+},
+];
+
+console.log(users);
