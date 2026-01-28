@@ -1,11 +1,12 @@
 import './App.css';
 import Footer from './components/footer';
 import Navbar from "./components/navbar";
+import Main from "./components/main";
 export default function App(){
   return (
     <>
       <Navbar />
-   3  <Main />
+    <Main />
     <Footer />
     </>
   );
