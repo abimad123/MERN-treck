@@ -1,21 +1,20 @@
 import './App.css';
 import Footer from './components/footer';
 import Navbar from "./components/navbar";
-import Main from "./components/main";
-export default function App(){
+import Todos from "./components/todos";
+import { Outlet } from 'react-router-dom';
+
+const links = [];
+
+export default function App() {
   return (
-    <>
-      <Navbar />
-    <Main />
-    <Footer />
-    </>
+    <div>
+      <Navbar links={links} />
+      
+      {/* This is where child routes render */}
+      <Outlet />
+      <Todos/>
+      <Footer />
+    </div>
   );
 }
-
-
-
-// export default App;
-
-// const name="abi";
-// console.log(name);
-// export {name} //to export an single thing
